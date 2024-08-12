@@ -1,0 +1,13 @@
+[package]
+name = 'staking-move'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'e6e2f9f70ca12c139d9e40c78c396e99ae528989'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+AptosFramework = "0x1"
+SimpleFarm = "30b4babf986422f42da6c03ef86396776fcec6ee38b0499c0f41ce3838be1b1b"
+Initializer = "0xaccfe9080302dc3559f761cf07e1d16eaa9e15ef33b6314e575ed425a11bc8f4"
+MoonCoinType = "92d0c19a94f85b95d15bafed1695284d551262fd47ff746bb7cf8849c418b1cc"
